@@ -1,9 +1,10 @@
 /* Custom CSS */
 /* STEP 12: Using your browser's DOM Inspector, figure out how the default .carousel-caption is positioned with CSS, and change it */
-/* .carousel-caption {
-	top: 0;
-	padding-top: 0.5rem;
-} */
+.carousel-caption {
+	bottom: 0;
+	top: auto;
+	padding-bottom: 0.5rem;
+}
 
 /* STEP 13: View the result in the browser, then head back to index.html */
 /* The below class and animation keyframes are used by the JavaScript */
@@ -21,4 +22,10 @@
 	to {
 		transform: none;
 	}
+}
+
+/* Move carousel indicators to the top */
+.carousel-indicators {
+	bottom: auto;
+	top: 0.5rem;
 }
